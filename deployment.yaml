@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: super-sudoku-jenkins
-        image: 296609163560.dkr.ecr.us-east-1.amazonaws.com/myecr:12
+        image: 296609163560.dkr.ecr.us-east-1.amazonaws.com/myecr:13
         imagePullPolicy: Always
         ports:
         - containerPort: 80
